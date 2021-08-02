@@ -10,7 +10,7 @@
 ## Usage
 ...
 
-## Medida
+## Media
 ...
 
 ### Video
