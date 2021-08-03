@@ -5,7 +5,9 @@
 ...
 
 ## Specification
-...
+* Python 3.7.4
+* Tensorflow 2.2.0, tensorflow-addons, Cuda 10.1
+* Numpy
 
 ## Usage
 ...
