@@ -10,6 +10,10 @@
 * Numpy
 
 For Tensorflow and Cuda installation follow [this guide](https://www.tensorflow.org/install/pip).
+After installing tensorflow, you can install numpy and tensorflow-addons via the Python **pip** package manager, as follows:
+```
+$ pip install numpy tensorflow-addons
+```
 
 ## Usage
 ...
