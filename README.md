@@ -9,6 +9,8 @@
 * Tensorflow 2.2.0, tensorflow-addons, Cuda 10.1
 * Numpy
 
+For Tensorflow and Cuda installation follow [this guide](https://www.tensorflow.org/install/pip).
+
 ## Usage
 ...
 
