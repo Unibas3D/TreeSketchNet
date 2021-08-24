@@ -26,6 +26,7 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
   * `inception_multiple`: InceptionNet V3
   * `vgg16_multiple_skip`: VGG-16 with skip connections
   * `alexnet_multiple`: AlexNet
+
 [//]: # (Hello)
 You can also set the directory where to save the trained model, modifing the `log_dir` variable. Remember that if you need to test your trained network you must modify the same variable in the `test.py` file!  
 You can early stop the training from terminal with `Ctrl + C`. The procedure will save the model with best weights.  
