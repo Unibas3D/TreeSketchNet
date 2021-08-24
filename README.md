@@ -31,7 +31,7 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
 * To continue the training of an early stopped model, in the `train.py` file you must
   * change the `load_dir` variable with the directory where the saved model is
   * set the `load_model` variable to True.
-<li style="list-style-type: none;"> Remember that the saved model architecture needs to be the same of that indicated by the `model_name` variable.</li>
+  Remember that the saved model architecture needs to be the same of that indicated by the `model_name` variable.</li>
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
 
 ## Media
