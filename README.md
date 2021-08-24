@@ -18,7 +18,8 @@ $ pip install numpy tensorflow-addons
 ```
 
 ## Usage
-...
+In [NeuralNetwork](NeuralNetwork) folder you can find the code relative to the neural network architecture. After preliminary installations, you can train and test our neural network.
+<inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
 
 ## Media
 ...
