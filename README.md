@@ -29,8 +29,8 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
 * You can also change the directory where to save the trained model, modifing the `log_dir` variable in the `train.py` file. Remember that if you need to test your trained network you must modify the same variable in the `test.py` file!
 * You can early stop the training from terminal with `Ctrl + C`. The procedure will save the model with best weights.
 * To continue the training of an early stopped model, in the `train.py` file you must
-  * change the `load_dir` variable with the directory where the saved model is
-  * set the `load_model` variable to True.
+  * change the `load_dir` variable with the directory where the saved model is;
+  * set the `load_model` variable to True.  
   Remember that the saved model architecture needs to be the same of that indicated by the `model_name` variable.</li>
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
 
