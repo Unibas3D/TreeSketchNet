@@ -37,7 +37,7 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
  
 ### Blender add-on Render Tree Thesis
-
+[sapling_addon_1](imgs/sapling_addon_1.png)
 
 ## Media
 ...
