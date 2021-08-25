@@ -18,6 +18,7 @@ $ pip install numpy tensorflow-addons
 ```
 
 ## Usage
+### Neural Network
 In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the neural network architecture.  
 * You can download the dataset used in our work from [here]() or you can create your own using the Blender add-on [RenderTreeThesis]().
 * To test our pre-trained network you can download the model form [here](), copy the entire folder content in [NeuralNetwork/logs_archive](NeuralNetwork/logs_archive) and execute the `test.py` file.
@@ -34,6 +35,9 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
 
   Remember that the saved model architecture must be the same as that indicated by the `model_name` variable.
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
+ 
+### Blender add-on Render Tree Thesis
+
 
 ## Media
 ...
