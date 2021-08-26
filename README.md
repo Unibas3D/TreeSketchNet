@@ -37,7 +37,9 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
  
 ### Blender add-on Render Tree Thesis
-
+ For the installation of the Render Tree Thesis add-on you need to follow these steps:
+ 1. Enable the Sapling Tree Gen add-on as shown in the following images  
+![sapling_addon_1](imgs/sapling_addon_1.png)  ![sapling_addon_2](imgs/sapling_addon_2.png)
 
 ## Media
 ...
