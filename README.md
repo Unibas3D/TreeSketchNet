@@ -43,6 +43,8 @@ In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the ne
  2. Download [addon_render_tree_thesis.zip]() file
  3. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2.  
  ![sapling_addon_3](imgs/sapling_addon_3.png)
+ 4. After the installation, you can find the add-on in the right panel of the 3D viewport.  
+ ![sapling_addon_4](imgs/sapling_addon_4.png)
 
 ## Media
 ...
