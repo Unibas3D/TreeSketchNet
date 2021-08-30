@@ -39,7 +39,7 @@ You can create your own dataset using the Blender add-on [Render Tree Thesis]().
  
 ### Blender add-on Render Tree Thesis
  For the installation of the Render Tree Thesis add-on you need to follow these steps:
- 1. In the installation folder of Blender 2.82 (for example `C:\Program Files\Blender Foundation\Blender 2.82\`), open `addons` folder following this path `Blender 2.82\2.82\scripts\addons\`. Download the [add_curve_sapling]() `add_curve_sapling` folder, and paste it in the `addons` directory replacing the existing files.
+ 1. In the installation folder of Blender 2.82 (for example `C:\Program Files\Blender Foundation\Blender 2.82\`), open `addons` folder following this path `Blender 2.82\2.82\scripts\addons\`. Download the [add_curve_sapling]() folder, and paste it in the `addons` directory replacing the existing files.
  2. Enable the Sapling Tree Gen add-on as shown in the following images  
 ![sapling_addon_1](imgs/sapling_addon_1.png)  ![sapling_addon_2](imgs/sapling_addon_2.png)
  3. Download [addon_render_tree_thesis.zip]() file.
