@@ -43,7 +43,7 @@ You can create your own dataset using the Blender add-on [Render Tree Thesis]().
  2. Enable the Sapling Tree Gen add-on as shown in the following images  
 ![sapling_addon_1](imgs/sapling_addon_1.png)  ![sapling_addon_2](imgs/sapling_addon_2.png)
  3. Download [addon_render_tree_thesis.zip]() file.
- 4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2.  
+ 4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2. After the installation enable the Render Tree Thesis add-on by checking the box to the left of its name.  
  ![sapling_addon_3](imgs/sapling_addon_3.png)
  5. After the installation, you can find the add-on in the right panel of the 3D Viewport.  
  ![sapling_addon_4](imgs/sapling_addon_4.png)
