@@ -7,7 +7,7 @@ This system allows to create 3D tree meshes by predicting the Weber and Penn<sup
 
 In this repository, we provide: 
 * Render Tree (RT) Blender add-on to generate synthetic hand-made (SHM) sketches defining Weber and Penn parameters
-* Our training and validation datasets which cosist of SHM and paraemeters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)<sup>[3](#References)</sup>
+* Our training and validation datasets which cosist of SHM and parameters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)<sup>[3](#References)</sup>
 * The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet<sup>[4](#References)</sup>, ResNet-50<sup>[5](#References)</sup>, VGG-16<sup>[6](#References)</sup>, Inception V3<sup>[7](#References)</sup>)
 * Our pretrained Inception V3 final architecture of which our weight are available
 
