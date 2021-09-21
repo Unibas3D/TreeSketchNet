@@ -2,7 +2,7 @@
 ![teaser](https://user-images.githubusercontent.com/88141714/127903685-1d0aa283-2ecb-4cc0-9ccd-a436e3e60aaa.jpg)
 
 ## Overview
-...
+TreeSketchNet is an automated procedural modelling system based on Deep Neural Network which is described in our preprint [paper](). 
 
 ## Specification
 * Python 3.7.4
