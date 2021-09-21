@@ -56,7 +56,7 @@ You can create your own dataset using the Blender add-on [Render Tree]().
  ![sapling_addon_4](imgs/sapling_addon_4.png)
 
 ### Hand Drawing Sketch Guidelines
-Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Adobe Photoshop. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
+Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as Adobe Photoshop or GIMP. In particular stroke thinkess has to be 5px and brush hardness is 100% for both Photoshop and GIMP with dark as color. Alternatively you can use a light pen to draw the sketch. The input of our DNN must be in PNG format. The foliage shape must be as closed as possible and the sketch background has to be white.
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
 
