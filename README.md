@@ -60,7 +60,7 @@ Here we report some examples of sketches. To drawn skecth you can use an image m
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
 
-|  [Maple](imgs/maple.png) |[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|
+|![Maple](imgs/maple.png)|![Maple](imgs/maple.png)|![Maple](imgs/maple.png)|![Maple](imgs/maple.png)|![Maple](imgs/maple.png)|
 |---|---|---|---|---|
 |Maple|Maple|Maple|Maple|Maple|
 
