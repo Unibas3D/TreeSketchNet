@@ -59,42 +59,10 @@ You can create your own dataset using the Blender add-on [Render Tree]().
 Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Photoshop<sup>TM</sup>. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
-<table style="border: none !important;">
- <tr>
-  <td>
-   <img src="imgs/maple.png" style="width:100%;">
-  </td>
-  <td>
-   <img src="imgs/palm.png" style="width:100%;">
-  </td>
-   <td>
-   <img src="imgs/pine.png" style="width:100%;">
-  </td>
-  <td>
-   <img src="imgs/cherry.png" style="width:100%;">
-  </td>
-  <td>
-   <img src="imgs/bonsai.png" style="width:100%;">
-  </td>
- </tr>
-  <tr>
-   <td>
-    <span style="text-align:center;">Maple</span>
-   </td>
-   <td>
-    <span>Palm</span>
-   </td>
-   <td>
-    <span>Pine</span>
-   </td>
-   <td>
-    <span>Cherry</span>
-   </td>      
-   <td>
-    <span>Bonsai</span>
-   </td>  
- </tr>
- </table
+
+|  [Maple](imgs/maple.png) |[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|[Maple](imgs/maple.png)|
+|---|---|---|---|---|
+|Maple|Maple|Maple|Maple|Maple|
 
 ## Video
 ...
