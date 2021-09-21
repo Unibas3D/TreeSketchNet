@@ -2,7 +2,8 @@
 ![teaser](https://user-images.githubusercontent.com/88141714/127903685-1d0aa283-2ecb-4cc0-9ccd-a436e3e60aaa.jpg)
 
 ## Overview
-TreeSketchNet is an automated procedural modelling system based on Deep Neural Network which is described in our preprint [paper](). 
+TreeSketchNet is an automated procedural modelling system based on Deep Convolutional Neural Network which is described in our preprint [paper](). 
+This system allows to create 3D tree meshes by predicting  using simple hand drawn sketches. In particular this system can recognize and create 3D mesh
 
 ## Specification
 * Python 3.7.4
@@ -61,3 +62,6 @@ You can create your own dataset using the Blender add-on [Render Tree Thesis]().
 Copyright (c) 2021, Nicola Capece. All right reserved.
  
 The code is distributed under a BSD license. See `LICENSE` for information.
+ 
+### References
+1. *Creation and Rendering of Realistic Trees.* Jason Weber and Joseph Penn. 1995. InProceedings of the 22nd Annual Conference on Computer Graphics and InteractiveTechniques (SIGGRAPH ’95). Association for Computing Machinery, New York, NY,USA, 119–128. [](https://doir.org/10.1145/218380.218427)
