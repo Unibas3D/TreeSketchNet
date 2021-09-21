@@ -4,7 +4,12 @@
 ## Overview
 TreeSketchNet is an automated procedural modelling system based on Deep convolutional Neural Network (DNN) which is described in our preprint [paper](). 
 This system allows to create 3D tree meshes by predicting the Weber and Penn<sup>[1](#References)</sup> parameters using simple hand drawn sketches as input of DNN. In particular this system can recognize and create 3D mesh of specific 5 trees such as Maple, Cherry, Pine, Bonsai, and Plam.
-In this repository, we provide the 
+
+In this repository, we provide: 
+* Render Tree (RT) Blender add-on to generate synthetic hand-made (SHM) sketches defining Weber and Penn parameters
+* Our training and validation datasets which cosist of SHM and paraemeters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)[2](#References)<sup></sup>
+* The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet, ResNet-50, VGG-16, Inception V3)
+* Our pretrained Inception V3 final architecture of which our weight are available
 
 ## Specification
 * Python 3.7.4
@@ -23,7 +28,7 @@ $ pip install numpy tensorflow-addons
 ### Neural Network
 In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the neural network architecture.  
 * You can download the dataset used in our work from [here](). You need to unpack the .zip file and copy its content in the [NeuralNetwork/train_validation_set](NeuralNetwork/train_validation_set) folder.  
-You can create your own dataset using the Blender add-on [Render Tree Thesis]().
+You can create your own dataset using the Blender add-on [Render Tree]().
 * To test our pre-trained network you can download the model form [here](), copy the entire folder content in [NeuralNetwork/logs_archive](NeuralNetwork/logs_archive) and execute the `test.py` file.
 * You can find all the network architectures tested in this paper in [my_model.py](NeuralNetwork/models/my_model.py) file. To train one of these networks, in `train.py` you need to set the `model_name` variable, choosing from the strings listed below:
   * `resnet50_multiple`: ResNet50
@@ -39,19 +44,16 @@ You can create your own dataset using the Blender add-on [Render Tree Thesis]().
   Remember that the saved model architecture must be the same as that indicated by the `model_name` variable.
 <inserire indicazioni per il download del dataset e del modello. Inserire indicazioni sulla struttura della cartella di test>
  
-### Blender add-on Render Tree Thesis
- For the installation of the Render Tree Thesis add-on you need to follow these steps:
+### Blender add-on Render Tree
+ For the installation of the Render Tree add-on you need to follow these steps:
  1. In the installation folder of Blender 2.82 (for example `C:\Program Files\Blender Foundation\Blender 2.82\`), open `addons` folder following this path `Blender 2.82\2.82\scripts\addons\`. Download the [add_curve_sapling.zip](add_curve_sapling.zip) file, unzip it and paste the `add_curve_sapling` folder in the `addons` directory replacing the existing files.
  2. Enable the Sapling Tree Gen add-on as shown in the following images  
 ![sapling_addon_1](imgs/sapling_addon_1.png)  ![sapling_addon_2](imgs/sapling_addon_2.png)
  3. Download [addon_render_tree_thesis.zip]() file.
- 4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2. After the installation enable the Render Tree Thesis add-on by checking the box to the left of its name.  
+ 4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2. After the installation enable the Render Tree add-on by checking the box to the left of its name.  
  ![sapling_addon_3](imgs/sapling_addon_3.png)
  5. After the installation, you can find the add-on in the right panel of the 3D Viewport.  
  ![sapling_addon_4](imgs/sapling_addon_4.png)
-
-## Media
-...
 
 ## Video
 ...
@@ -67,4 +69,7 @@ The code is distributed under a BSD license. See `LICENSE` for information.
 ## References
 1. __Creation and Rendering of Realistic Trees.__ 
    Jason Weber and Joseph Penn. 1995. *InProceedings of the 22nd Annual Conference on Computer Graphics and InteractiveTechniques (SIGGRAPH ’95).* Association for Computing
-   Machinery, New York, NY,USA, 119–128. [link](https://doir.org/10.1145/218380.218427)
+   Machinery, New York, NY,USA, 119–128. [link](https://doi.org/10.1145/218380.218427)
+2. __PlantCV v2: Image analysis software for high-throughput plant phenotyping.__ 
+   Gehan, Malia A and Fahlgren, Noah and Abbasi, Arash and Berry, Jeffrey C and Callen, Steven T and Chavez, Leonardo and Doust, Andrew N and Feldman, Max J and Gilbert, 
+   Kerrigan B and Hodge, John G and others. *PeerJ Inc. [link](https://doi.org/10.7717/peerj.4088)
