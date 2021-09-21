@@ -3,7 +3,7 @@
 
 ## Overview
 TreeSketchNet is an automated procedural modelling system based on Deep Convolutional Neural Network which is described in our preprint [paper](). 
-This system allows to create 3D tree meshes by predicting  using simple hand drawn sketches. In particular this system can recognize and create 3D mesh
+This system allows to create 3D tree meshes by predicting the Weber and Penn<sup>(1)</sup> parameters using simple hand drawn sketches. In particular this system can recognize and create 3D mesh
 
 ## Specification
 * Python 3.7.4
@@ -65,5 +65,5 @@ The code is distributed under a BSD license. See `LICENSE` for information.
  
 ### References
 1. __Creation and Rendering of Realistic Trees.__ 
-   Jason Weber and Joseph Penn. 1995. InProceedings of the 22nd Annual Conference on Computer Graphics and InteractiveTechniques (SIGGRAPH ’95). Association for Computing
+   Jason Weber and Joseph Penn. 1995. *InProceedings of the 22nd Annual Conference on Computer Graphics and InteractiveTechniques (SIGGRAPH ’95).* Association for Computing
    Machinery, New York, NY,USA, 119–128. [link](https://doir.org/10.1145/218380.218427)
