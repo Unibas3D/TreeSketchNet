@@ -55,6 +55,8 @@ You can create your own dataset using the Blender add-on [Render Tree]().
  5. After the installation, you can find the add-on in the right panel of the 3D Viewport.  
  ![sapling_addon_4](imgs/sapling_addon_4.png)
 
+### Hand Drawing Sketch Guidelines
+ 
 ## Video
 ...
 
