@@ -62,22 +62,22 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 <table style="border: none !important;">
  <tr>
   <td>
-   <img src="imgs/maple.png" style="width:20%;">
+   <img src="imgs/maple.png" style="width:100%;">
   </td>
   <td>
-   <img src="imgs/palm.png" style="width:20%;">
+   <img src="imgs/palm.png" style="width:100%;">
   </td>
    <td>
-   <img src="imgs/pine.png" style="width:20%;">
+   <img src="imgs/pine.png" style="width:100%;">
   </td>
   <td>
-   <img src="imgs/cherry.png" style="width:20%;">
+   <img src="imgs/cherry.png" style="width:100%;">
   </td>
   <td>
-   <img src="imgs/bonsai.png" style="width:20%;">
+   <img src="imgs/bonsai.png" style="width:100%;">
   </td>
  </tr>
-  <tr style="height:2.5%; text-align:center; background-color:none;"">
+  <tr>
    <td>
     <span>Maple</span>
    </td>
