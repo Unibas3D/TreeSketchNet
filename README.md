@@ -59,7 +59,7 @@ You can create your own dataset using the Blender add-on [Render Tree]().
 Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Photoshop<sup>TM</sup>. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
-<table>
+<table boder="0">
  <tr>
   <td>
    <img src="imgs/maple.png" style="width:15%;">
@@ -72,6 +72,9 @@ Please be inspired by the examples provided if you want to get a good result. Tr
   </td>
   <td>
    <img src="imgs/cherry.png" style="width:15%;">
+  </td>
+  <td>
+   <img src="imgs/bonsai.png" style="width:15%;">
   </td>
  </tr>
   <tr style="height:2.5%; text-align:center; background-color:none;"">
@@ -86,21 +89,13 @@ Please be inspired by the examples provided if you want to get a good result. Tr
    </td>
    <td>
     <span>Cherry</span>
-   </td>                                                                  
+   </td>      
+   <td>
+    <span>Bonsai</span>
+   </td>  
  </tr>
  </table
- 
- <div style="display:inline-block;">
- <figure>
-  <img src="imgs/maple.png" style="width:15%;">
-  <figcaption style="margin-bottom:-10%;">Maple</figcaption>
- </figure>
- <!--<figure><img src="imgs/palm.png" style="width:15%;"><figcaption>Palm</figcaption></figure>
- <figure><img src="imgs/pine.png" style="width:15%;"><figcaption>Pine</figcaption></figure>
- <figure><img src="imgs/cherry.png" style="width:15%;"><figcaption>Cherry</figcaption></figure>
- <figure><img src="imgs/bonsai.png" style="width:15%;"><figcaption>Bonsai</figcaption></figure>-->
- </div>
- 
+
 ## Video
 ...
 
