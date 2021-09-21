@@ -68,6 +68,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 ...
 
 ## Citation
+ <!--
 If you use the code or the data for your research, please cite the our paper (for now):
 ```
  @article{capece2021treesketchnet,
@@ -78,7 +79,7 @@ If you use the code or the data for your research, please cite the our paper (fo
       archivePrefix={arXiv},
       primaryClass={-.-}
 }
-```
+```-->
 
 ## License
 Copyright (c) 2021, Nicola Capece. All right reserved.
