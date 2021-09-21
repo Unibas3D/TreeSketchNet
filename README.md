@@ -57,9 +57,12 @@ You can create your own dataset using the Blender add-on [Render Tree]().
 
 ### Hand Drawing Sketch Guidelines
 <div style="display:inline-block">
- <img src="imgs/maple.png" width="50%">
+ <img src="imgs/maple.png" width="40%">
+ <img src="imgs/palm.png" width="40%">
+ <img src="imgs/pine.png" width="40%">
+ <img src="imgs/cherry.png" width="40%">
+ <img src="imgs/bonsai.png" width="40%">
  </div>
- ![maple](imgs/maple.png | width=100) ![palm](imgs/palm.png | width=100) [!pine](imgs/pine.png | width=100) ![cherry](imgs/cherry.png | width=100) ![bonsai](imgs/bonsai.png | width=100)
  
 ## Video
 ...
