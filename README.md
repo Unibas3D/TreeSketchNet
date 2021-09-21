@@ -52,11 +52,11 @@ You can create your own dataset using the Blender add-on [Render Tree]().
  3. Download [addon_render_tree_thesis.zip]() file.
  4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2. After the installation enable the Render Tree add-on by checking the box to the left of its name.  
  ![sapling_addon_3](imgs/sapling_addon_3.png)
- 5. After the installation, you can find the add-on in the right panel of the 3D Viewport.  
+ 5. After the installation, you can find the add-on in the right panel of the 3D Viewport.
  ![sapling_addon_4](imgs/sapling_addon_4.png)
 
 ### Hand Drawing Sketch Guidelines
-Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Photoshop<sup>TM</sup>. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
+Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Adobe Photoshop. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
 
