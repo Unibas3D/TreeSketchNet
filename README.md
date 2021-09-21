@@ -61,8 +61,8 @@ Here we report some examples of sketches. To drawn skecth you can use an image m
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
 
 |![Maple](imgs/maple.png)|![Pine](imgs/pine.png)|![Palm](imgs/palm.png)|![Cherry](imgs/cherry.png)|![Bonsai](imgs/bonsai.png)|
-|---|---|---|---|---|
-|<span style="text-align:center;">Maple</span>|Pine|Palm|Cherry|Bonsai|
+|:-:|:-:|:-:|:-:|:-:|
+|Maple|Pine|Palm|Cherry|Bonsai|
 
 ## Video
 ...
