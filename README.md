@@ -62,7 +62,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 <div style="display:inline-block;">
  <figure>
   <img src="imgs/maple.png" style="width:15%;">
-  <figcaption style="margin-top:10%;">Maple</figcaption>
+  <figcaption style="margin-bottom:-10%;">Maple</figcaption>
  </figure>
  <!--<figure><img src="imgs/palm.png" style="width:15%;"><figcaption>Palm</figcaption></figure>
  <figure><img src="imgs/pine.png" style="width:15%;"><figcaption>Pine</figcaption></figure>
