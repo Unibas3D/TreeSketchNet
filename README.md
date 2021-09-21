@@ -60,11 +60,11 @@ Here we report some examples of sketches. To drawn skecth you can use an image m
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
 <div style="display:inline-block">
- <figure><img src="imgs/maple.png" style="width:18%;"><br/><figcaption>Maple Tree</figcaption></figure>
- <img src="imgs/palm.png" width="18%">
- <img src="imgs/pine.png" width="18%">
- <img src="imgs/cherry.png" width="18%">
- <img src="imgs/bonsai.png" width="18%">
+ <figure><img src="imgs/maple.png" style="width:18%;"><figcaption>Maple</figcaption></figure>
+ <figure><img src="imgs/palm.png" style="width:18%;"><figcaption>Palm</figcaption></figure>
+ <figure><img src="imgs/pine.png" style="width:18%;"><figcaption>Pine</figcaption></figure>
+ <figure><img src="imgs/cherry.png" style="width:18%;"><figcaption>Cherry</figcaption></figure>
+ <figure><img src="imgs/bonsai.png" style="width:18%;"><figcaption>Bonsai</figcaption></figure>
  </div>
  
 ## Video
