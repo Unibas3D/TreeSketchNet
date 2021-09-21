@@ -59,4 +59,4 @@ You can create your own dataset using the Blender add-on [Render Tree Thesis]().
 
 ## License
 Copyright (c) 2021, Nicola Capece. All right reserved.
-The code is distributed under a BSD license. See [LICENSE]() for information.
+The code is distributed under a BSD license. See `LICENSE` for information.
