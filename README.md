@@ -7,8 +7,8 @@ This system allows to create 3D tree meshes by predicting the Weber and Penn<sup
 
 In this repository, we provide: 
 * Render Tree (RT) Blender add-on to generate synthetic hand-made (SHM) sketches defining Weber and Penn parameters
-* Our training and validation datasets which cosist of SHM and paraemeters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)[2](#References)<sup></sup>
-* The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet, ResNet-50, VGG-16, Inception V3)
+* Our training and validation datasets which cosist of SHM and paraemeters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)<sup>[2](#References)</sup>
+* The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet<sup>[3](#References)</sup>, ResNet-50<sup>[4](#References)</sup>, VGG-16<sup>[5](#References)</sup>, Inception V3<sup>[6](#References)</sup>)
 * Our pretrained Inception V3 final architecture of which our weight are available
 
 ## Specification
@@ -72,4 +72,10 @@ The code is distributed under a BSD license. See `LICENSE` for information.
    Machinery, New York, NY,USA, 119–128. [link](https://doi.org/10.1145/218380.218427)
 2. __PlantCV v2: Image analysis software for high-throughput plant phenotyping.__ 
    Gehan, Malia A and Fahlgren, Noah and Abbasi, Arash and Berry, Jeffrey C and Callen, Steven T and Chavez, Leonardo and Doust, Andrew N and Feldman, Max J and Gilbert, 
-   Kerrigan B and Hodge, John G and others. *PeerJ Inc. [link](https://doi.org/10.7717/peerj.4088)
+   Kerrigan B and Hodge, John G and others. *PeerJ Inc.* [link](https://doi.org/10.7717/peerj.4088)
+3. __Imagenet classification with deep convolutional neural networks.__ Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E. *Advances in neural information processing 
+   systems.* [link](https://doi.org/10.1145/3065386)
+4. __Deep Residual Learning for Image Recognition.__ K. He and X. Zhang and S. Ren and J. Sun. *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* [link](https://doi.org/10.1109/CVPR.2016.90)
+5. __Very Deep Convolutional Networks for Large-Scale Image Recognition.__ Karen Simonyan and Andrew Zisserman. *International Conference on Learning Representations.* [link](https://doi.org/10.1109/ACPR.2015.7486599)
+6. __Rethinking the inception architecture for computer vision.__ Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jon and Wojna, Zbigniew. *Proceedings 
+   of the IEEE conference on computer vision and pattern recognition.* [link](https://doi.org/10.1109/CVPR.2016.308) 
