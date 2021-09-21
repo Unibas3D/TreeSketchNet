@@ -59,9 +59,9 @@ You can create your own dataset using the Blender add-on [Render Tree]().
 Here we report some examples of sketches. To drawn skecth you can use an image manipulation program such as GIMP or Photoshop<sup>TM</sup>. In particular stroke thinkess has to be *add number and intensity* for GIMP and *add number and intensity* for Photoshop with *add color* color. The foliage shape must be as closed as possible. 
  
 Please be inspired by the examples provided if you want to get a good result. Try to draw the branches as lines and the secondary ones as lines starting from the primary ones, etc. Remember that only the 5 types of trees shown in the following images are recognized by our system
-<div style="display:inline-block;">
- <figure style="display:table;">
-  <img src="imgs/maple.png" style="width:15%;">
+<div >
+ <figure>
+  <img style="display:inline-block;" src="imgs/maple.png" style="width:15%;">
   <figcaption style="display:block;">Maple</figcaption>
  </figure>
  <!--<figure><img src="imgs/palm.png" style="width:15%;"><figcaption>Palm</figcaption></figure>
