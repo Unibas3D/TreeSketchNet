@@ -79,7 +79,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
  </tr>
   <tr>
    <td>
-    <span>Maple</span>
+    <span style="text-align:center;">Maple</span>
    </td>
    <td>
     <span>Palm</span>
