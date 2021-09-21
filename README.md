@@ -3,7 +3,7 @@
 
 ## Overview
 TreeSketchNet is an automated procedural modelling system based on Deep Convolutional Neural Network which is described in our preprint [paper](). 
-This system allows to create 3D tree meshes by predicting the Weber and Penn<sup>(1)</sup> parameters using simple hand drawn sketches. In particular this system can recognize and create 3D mesh
+This system allows to create 3D tree meshes by predicting the Weber and Penn<sup>([1](#References))</sup> parameters using simple hand drawn sketches. In particular this system can recognize and create 3D mesh
 
 ## Specification
 * Python 3.7.4
