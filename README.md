@@ -56,7 +56,7 @@ You can create your own dataset using the Blender add-on [Render Tree]().
  ![sapling_addon_4](imgs/sapling_addon_4.png)
 
 ### Hand Drawing Sketch Guidelines
-![maple](imgs/maple.png) ![palm](imgs/palm.png) [!pine](imgs/pine.png) ![cherry](imgs/cherry.png) ![bonsai](imgs/bonsai.png)
+![maple](imgs/maple.png | width=100) ![palm](imgs/palm.png | width=100) [!pine](imgs/pine.png | width=100) ![cherry](imgs/cherry.png | width=100) ![bonsai](imgs/bonsai.png | width=100)
  
 ## Video
 ...
