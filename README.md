@@ -68,7 +68,17 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 ...
 
 ## Citation
-...
+If you use the code or the data for your research, please cite the our paper (for now):
+```
+ @article{capece2021treesketchnet,
+      title={TreeSketchNet: From Sketch to 3D Tree Parameters Generation}, 
+      author={Capece, Nicola and Manfredi, Gilda and Erra, Ugo and Gruosso, Monica},
+      year={2021},
+      eprint={-.-},
+      archivePrefix={arXiv},
+      primaryClass={-.-}
+}
+```
 
 ## License
 Copyright (c) 2021, Nicola Capece. All right reserved.
