@@ -27,7 +27,7 @@ $ pip install numpy tensorflow-addons
 ## Usage
 ### Neural Network
 In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the neural network architecture.  
-* You can get the dataset used in our work by sending an e-mail to [nicola.capece@unibas.it](mailto:nicola.capece@unibas.it). You need to unpack the .zip file and copy its content in the [NeuralNetwork/train_validation_set](NeuralNetwork/train_validation_set) folder.  
+* You can get the dataset used in our work by sending an e-mail to [author](mailto:nicola.capece@unibas.it). You need to unpack the .zip file and copy its content in the [NeuralNetwork/train_validation_set](NeuralNetwork/train_validation_set) folder.  
 You can create your own dataset using the Blender add-on [Render Tree]().
 * To test our pre-trained network you can download the model form [here](), copy the entire folder content in [NeuralNetwork/logs_archive](NeuralNetwork/logs_archive) and execute the `test.py` file.
 * You can find all the network architectures tested in this paper in [my_model.py](NeuralNetwork/models/my_model.py) file. To train one of these networks, in `train.py` you need to set the `model_name` variable, choosing from the strings listed below:
