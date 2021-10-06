@@ -67,6 +67,8 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 ## Video
 <iframe src="https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/preview" width="640" height="480" allow="autoplay"></iframe>
  
+ [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/preview)
+ 
 ## Citation
  <!--
 If you use the code or the data for your research, please cite the our paper (for now):
