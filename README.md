@@ -1,7 +1,3 @@
----
-driveId: 1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/preview
----
-
 # Tree Sketch to 3D tree meshes
 ![teaser](https://user-images.githubusercontent.com/88141714/127903685-1d0aa283-2ecb-4cc0-9ccd-a436e3e60aaa.jpg)
 
@@ -69,7 +65,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 |Maple|Pine|Palm|Cherry|Bonsai|
 
 ## Video
-{% include googleDrivePlayer.html id=page.driveId %}
+ <a href="https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/view?usp=sharing">Watch Video Here!</a>
 
 ## Citation
  <!--
