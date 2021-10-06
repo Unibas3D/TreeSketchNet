@@ -65,12 +65,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 |Maple|Pine|Palm|Cherry|Bonsai|
 
 ## Video
- <!--Add youtube video-->
- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/pYP9DDsd62A)
- 
- <!--
  <a href="https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/view?usp=sharing">Watch Video Here!</a>
--->
 
 ## Citation
  <!--
