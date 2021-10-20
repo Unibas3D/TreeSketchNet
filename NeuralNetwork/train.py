@@ -1,6 +1,6 @@
 # BSD 3-Clause License
 
-# Copyright (c) 2021, Nicola Capece, Gilda Manfredi, and Ugo Erra
+# Copyright (c) 2021, ...
 # All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
