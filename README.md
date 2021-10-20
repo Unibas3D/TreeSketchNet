@@ -27,9 +27,9 @@ $ pip install numpy tensorflow-addons
 ## Usage
 ### Neural Network
 In [NeuralNetwork](NeuralNetwork) folder you can find the code related to the neural network architecture.  
-* You can get the dataset used in our work by sending an e-mail to [author](mailto:nicola.capece@unibas.it). You need to unpack the .zip file and copy its content in the [NeuralNetwork/train_validation_set](NeuralNetwork/train_validation_set) folder.  
+* You can get the dataset used in our work [here](https://zenodo.org/record/5583473/files/division_dataset.zip?download=1). You need to unpack the .zip file and copy its content in the [NeuralNetwork/train_validation_set](NeuralNetwork/train_validation_set) folder.  
 You can create your own dataset using the Blender add-on [Render Tree]().
-* To test our pre-trained network you can download the model form [here](http://graphics.unibas.it:8080/share.cgi?ssid=0np7v4V), copy the entire folder in [NeuralNetwork/logs_archive](NeuralNetwork/logs_archive) and execute the `test.py` file.
+* To test our pre-trained network you can download the model form [here](https://zenodo.org/record/5583473/files/fit.zip?download=1), copy the entire folder in [NeuralNetwork/logs_archive](NeuralNetwork/logs_archive) and execute the `test.py` file.
 * You can find all the network architectures tested in this paper in [my_model.py](NeuralNetwork/models/my_model.py) file. To train one of these networks, in `train.py` you need to set the `model_name` variable, choosing from the strings listed below:
   * `resnet50_multiple`: ResNet50
   * `inception_multiple`: InceptionNet V3
@@ -49,7 +49,7 @@ You can create your own dataset using the Blender add-on [Render Tree]().
  1. In the installation folder of Blender 2.82 (for example `C:\Program Files\Blender Foundation\Blender 2.82\`), open `addons` folder following this path `Blender 2.82\2.82\scripts\addons\`. Download the [add_curve_sapling.zip](add_curve_sapling.zip) file, unzip it and paste the `add_curve_sapling` folder in the `addons` directory replacing the existing files.
  2. Enable the Sapling Tree Gen add-on as shown in the following images  
 ![sapling_addon_1](imgs/sapling_addon_1.png)  ![sapling_addon_2](imgs/sapling_addon_2.png)
- 3. Download [addon_render_tree.zip](http://graphics.unibas.it:8080/share.cgi?ssid=0XGKaRI) file.
+ 3. Download [addon_render_tree.zip](https://zenodo.org/record/5583473/files/addon_render_tree.zip?download=1) file.
  4. In `Blender Preferences -> Add-ons` click on `Install...` and selected the .zip file downloaded in point 2. After the installation enable the Render Tree add-on by checking the box to the left of its name.  
  ![sapling_addon_3](imgs/sapling_addon_3.png)
  5. After the installation, you can find the add-on in the right panel of the 3D Viewport.
@@ -65,24 +65,10 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 |Maple|Pine|Palm|Cherry|Bonsai|
 
 ## Video
- <a href="https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/view?usp=sharing">Watch Video Here!</a>
-
-## Citation
- <!--
-If you use the code or the data for your research, please cite the our paper (for now):
-```
- @article{capece2021treesketchnet,
-      title={TreeSketchNet: From Sketch to 3D Tree Parameters Generation}, 
-      author={Capece, Nicola and Manfredi, Gilda and Erra, Ugo and Gruosso, Monica},
-      year={2021},
-      eprint={-.-},
-      archivePrefix={arXiv},
-      primaryClass={-.-}
-}
-```-->
+ <a href="https://zenodo.org/record/5583473/files/Video_Paper_blind.mp4?download=1">Watch Video Here!</a>
 
 ## License
-Copyright (c) 2021, Nicola Capece. All right reserved.
+Copyright (c) 2021, .... All right reserved.
  
 The code is distributed under a BSD license. See `LICENSE` for information.
  
