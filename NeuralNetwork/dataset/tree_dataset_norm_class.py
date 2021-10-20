@@ -23,7 +23,7 @@ class PairImgParamClassification(object):
     params_shapes_dict = {}
     params_types_dict = {}
     def __init__(self, image_shape, _subdivision_keys, _NN_model_name,\
-                main_dir = "D:/Gilda Manfredi/bbt_addon_tree_thesis_2_8", shuffle = True):
+                main_dir = "", shuffle = True):
         self.IMG_SHAPE = image_shape
         self.NN_model_name = _NN_model_name
 
