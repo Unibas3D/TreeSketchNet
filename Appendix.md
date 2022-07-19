@@ -24,14 +24,11 @@ and its level of detail (LOD).
     value which activate the **customShape** parameter consisting of $4$
     values, one for each tree level, trunk, branches of the first,
     second, and third level, as shown in
-    Figure [1](#fig:customShape){reference-type="ref"
-    reference="fig:customShape"}. Each value represents the length of
+    <a href="#tree_levels">Figure 1</a>. Each value represents the length of
     component of each level;
-
-    [Length of tree components can be set with $4$ customShape values.
-    Level 0 represents the trunk length, level 1 represents the first
-    branches length, level 2 the second branches length, and the level 3
-    the fourth branches length]{.image}
+    | <img src="imgs/01_tree_levels.png" name = "tree_levels" alt="Tree Levels" style="width:50%"> | 
+    |:--:| 
+    | *Figure 1 - Length of tree components can be set with 4 customShape values. Level 0 represents the trunk length, level 1 represents the first branches length, level 2 the second branches length, and the level 3 the fourth branches length* |
 
 -   **Secondary Splits**: changes the style of secondary branches;
 
@@ -55,17 +52,13 @@ This class represents parameters useful to define the branches radius.
 
 -   **Radius Scale** (scale0) and **Radius Scale Variation** (scaleV0):
     define the trunk radius scale and its variation range.
-    $$radius_{trunk} = length_{trunk} * ratio * (scale0 \pm scaleV0)
-            \label{eq:radius_scale}$$ where: $radius_{trunk}$ is the
-    trunk radius, and $length_{trunk}$ is the trunk length;
+    $$radius_{trunk} = length_{trunk} * ratio * (scale0 \pm scaleV0)$$ 
+    where: $radius_{trunk}$ is the trunk radius, and $length_{trunk}$ is the trunk length;
 
 -   **Branch Radius Ratio** (ratioPower): defines the next level
     branches thickness value as follows:
-    $$radius_{child}=radius_{parent}\left(\frac{length_{child}}{length_{parent}}\right)^{ratioPower}
-            \label{eq:branch_radius}$$ where: $radius_{child}$ is the
-    previous branch radius, $radius_{parent}$ is the next branch radius,
-    $length_{child}$ is the previous branch length, and
-    $length_{parent}$ is the next branch length;
+    $$radius_{child}=radius_{parent}\left(\frac{length_{child}}{length_{parent}}\right)^{ratioPower}$$ 
+    where: $radius_{child}$ is the previous branch radius, $radius_{parent}$ is the next branch radius, $length_{child}$ is the previous branch length, and $length_{parent}$ is the next branch length;
 
 -   **Minimum Radius**: is the minimum radius value allowed for the
     thinnest branch;
@@ -78,9 +71,7 @@ This class represents parameters useful to define the branches radius.
     tip thickness;
 
 -   **Tweak Radius**: contains a value for each level which is
-    multiplied with Branch Radius Ratio (see
-    [\[eq:branch_radius\]](#eq:branch_radius){reference-type="eqref"
-    reference="eq:branch_radius"}) to keep major control on the branches
+    multiplied with Branch Radius Ratio to keep major control on the branches
     thickness.
 
 ## Branch Splitting
@@ -88,10 +79,11 @@ This class represents parameters useful to define the branches radius.
 This class contains the split of the branches parameters. Each level
 branches can be split, or cloned into other branches of the same level
 of the starting branch, as shown in
-Figure [2](#fig:branch_splitting){reference-type="ref"
-reference="fig:branch_splitting"}.
+<a href="#02_segSplits_splitAngle">Figure 2</a>.
 
-[Branches splitting example.]{.image}
+| <img src="imgs/02_segSplits_splitAngle.png" name = "02_segSplits_splitAngle" alt="SegSplit SplitAngle" style="width:50%"> | 
+|:--:| 
+| *Figure 2 - Branches splitting example* |
 
 -   **Levels**: represents the number of branch levels, with $levels=2$,
     a tree with trunk and first level branches will be generated;
@@ -124,8 +116,7 @@ reference="fig:branch_splitting"}.
 
 -   **Rotate Angle** and **Rotate Variation**: represent the direction
     grow angle and its variation, as shown in
-    Figure [4](#fig:branch_rationl){reference-type="ref"
-    reference="fig:branch_rationl"} (left);
+    <a href="#03_rotate_rotateV">Figure 3</a>;
 
 -   **Branch Rotate**: represents the branch rotation angle for the
     branch rotation matrix, in which is defined also the rotation axis.
@@ -133,9 +124,10 @@ reference="fig:branch_splitting"}.
 -   **Rotation Last Angle**: is the last parent rotation which is summed
     with the current branch rotation to obtain the Branch Rotate
     parameter.
-
-    [Branches rotation and curve resolution]{.image} [Branches rotation
-    and curve resolution]{.image}
+    
+    | <img src="imgs/03_rotate_rotateV.png" name = "03_rotate_rotateV" alt="Rotate" style="width:50%"> | <img src="imgs/04_curveRes.png" name = "04_curveRes" alt="curveRes" style="width:50%">| 
+    |:--:|:--:|
+    | *Figure 3 - Branches rotation* | *Figure 4 - Curve resolution* |
 
 -   **Outward Attraction**: curve branches toward the external;
 
@@ -145,8 +137,7 @@ reference="fig:branch_splitting"}.
 
 -   **Curve Resolution**: defines the sections number of each branch.
     Increasing such value more and more sinuous branches can be obtained
-    (see Figure [4](#fig:branch_rationl){reference-type="ref"
-    reference="fig:branch_rationl"} (right)).
+    (see <a href="#04_curveRes">Figure 4</a>).
 
 -   **Sign**: defines sign of the angle obtained by summing the split
     angle and split angle variation.
@@ -154,10 +145,10 @@ reference="fig:branch_splitting"}.
 ## Branch Growth
 
 This class contains parameters to set the tree branches growth (see
-Figure [5](#fig:branch_growth){reference-type="ref"
-reference="fig:branch_growth"}).
-
-[Branches Growth]{.image}
+<a href="#05_downAngle">Figure 5</a>).
+| <img src="imgs/05_downAngle.png" name = "05_downAngle" alt="Branches Growth" style="width:50%"> | 
+|:--:| 
+| *Figure 5 - Branches Growth* |
 
 -   **Taper Crown**: decreases the trunk dimension and its respective
     subdivision;
@@ -186,10 +177,10 @@ reference="fig:branch_growth"}).
 
 This class contains parameters to set the foliage. The crown of the tree
 can be enabled or disabled as needed (see
-Figure [6](#fig:foliage_parameters){reference-type="ref"
-reference="fig:foliage_parameters"}).
-
-[Foliage setting parameters]{.image}
+<a href="#06_leaf_horizontal">Figure 6</a>).
+| <img src="imgs/06_leaf_horizontal.png" name = "06_leaf_horizontal" alt="leaf Horizontal" style="width:50%"> | 
+|:--:| 
+| *Figure 6 - Foliage setting parameters* |
 
 -   **Leaf Shape**: set the leaf shape, which can be rectangular,
     hexagonal, dupliface, or duplivert;
