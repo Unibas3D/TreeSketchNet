@@ -68,7 +68,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
  <a href="https://drive.google.com/file/d/1eLEf-d3Gb_tLWa1vrB57gTjHDbchyuio/view?usp=sharing">Watch Video Here!</a>
 
 ## License
-Copyright (c) 2021, .... All right reserved.
+Copyright (c) 2022, Gilda Manfredi, Nicola Capece, and Ugo Erra. All right reserved.
  
 The code is distributed under a BSD license. See `LICENSE` for information.
  
