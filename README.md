@@ -1,5 +1,5 @@
 # Tree Sketch to 3D tree meshes
-![teaser](https://user-images.githubusercontent.com/88141714/127903685-1d0aa283-2ecb-4cc0-9ccd-a436e3e60aaa.jpg)
+![teaser](imgs/teaser_efficientnet_2.png)
 
 ## Overview
 TreeSketchNet is an automated procedural modelling <sup>[1](#References)</sup> system based on Deep convolutional Neural Network (DNN) which is described in our preprint [paper](). 
