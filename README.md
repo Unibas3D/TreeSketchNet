@@ -65,7 +65,7 @@ Please be inspired by the examples provided if you want to get a good result. Tr
 |Maple|Pine|Palm|Cherry|Bonsai|
 
 ## Video
- <a href="https://zenodo.org/record/5583473/files/Video_Paper_blind.mp4?download=1">Watch Video Here!</a>
+ <a href="#">Watch Video Here!</a>
 
 ## License
 Copyright (c) 2021, .... All right reserved.
