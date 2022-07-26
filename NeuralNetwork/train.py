@@ -49,7 +49,7 @@ if not os.path.exists(log_dir):
 
 IMG_SHAPE = [608, 608, 3]
 BATCH_SIZE = 8
-model_name = 'alexnet_multiple'
+model_name = 'efficientnet_multiple'
 
 if 'resnet' in model_name or 'efficientnet' in model_name:
     IMG_SHAPE = [224, 224, 3]
