@@ -51,12 +51,14 @@ IMG_SHAPE = [608, 608, 3]
 BATCH_SIZE = 8
 model_name = 'alexnet_multiple'
 
-if 'resnet' in model_name:
+if 'resnet' in model_name or 'efficientnet' in model_name:
     IMG_SHAPE = [224, 224, 3]
 elif 'inception' in model_name:
     IMG_SHAPE = [229, 229, 3]
 elif 'alexnet' in model_name:
     IMG_SHAPE = [227, 227, 3]
+elif 'coatnet' in model_name:
+    IMG_SHAPE = [224, 224, 3]
 
 train = True
 save_callback = True
