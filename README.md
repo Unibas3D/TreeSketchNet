@@ -13,7 +13,7 @@ In this repository, we provide:
 
 ## Specification
 * Python 3.7.4
-* Tensorflow 2.2.0, tensorflow-addons, Cuda 10.1
+* Tensorflow 2.8.0, tensorflow-addons, Cuda 11.2
 * Numpy
 * Blender 2.82
 
@@ -35,6 +35,8 @@ You can create your own dataset using the Blender add-on [Render Tree]().
   * `inception_multiple`: InceptionNet V3
   * `vgg16_multiple_skip`: VGG-16 with skip connections
   * `alexnet_multiple`: AlexNet
+  * `coatnet_multiple`: CoAtNet
+  * `efficientnet_multiple`: EfficientNet-B7
 * You can also change the directory in which to save the trained model by editing the `log_dir` variable in the `train.py` file. Remember that if you need to test your trained network you have to change the same variable in the `test.py` file!
 * You can early stop the training from terminal with `Ctrl + C`. The procedure will save the model with best weights.
 * To continue the training of an early stopped model, in the `train.py` file you must
