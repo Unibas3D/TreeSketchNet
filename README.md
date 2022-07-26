@@ -72,6 +72,20 @@ Copyright (c) 2022, Gilda Manfredi, Nicola Capece, and Ugo Erra.
 All right reserved.
  
 The code is distributed under a BSD license. See `LICENSE` for information.
+
+## Paper Citation
+```
+@misc{https://doi.org/10.48550/arxiv.2207.12297,
+  doi = {10.48550/ARXIV.2207.12297},
+  url = {https://arxiv.org/abs/2207.12297},
+  author = {Manfredi, Gilda and Capece, Nicola and Erra, Ugo and Gruosso, Monica},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Graphics (cs.GR), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {TreeSketchNet: From Sketch To 3D Tree Parameters Generation},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
  
 ## References
 1. __Texturing & modeling: a procedural approach.__ Ebert, David S and Musgrave, F Kenton and Peachey, Darwyn and Perlin, Ken and Worley, Steven. *Morgan Kaufmann.* [link](https://www.sciencedirect.com/book/9781558608481/texturing-and-modeling)
