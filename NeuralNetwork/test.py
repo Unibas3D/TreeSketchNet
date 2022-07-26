@@ -44,14 +44,16 @@ local_dir = os.path.dirname(__file__)
 test_set_dir = local_dir + "/test_set"
 log_dir = local_dir + "/logs_archive/fit"
 
-model_name = "alexnet_multiple"
+model_name = "efficientnet_multiple"
 IMG_SHAPE = [608, 608, 3]
-if 'resnet' in model_name:
+if 'resnet' in model_name or 'efficientnet' in model_name:
     IMG_SHAPE = [224, 224, 3]
 elif 'inception' in model_name:
     IMG_SHAPE = [229, 229, 3]
 elif 'alexnet' in model_name:
     IMG_SHAPE = [227, 227, 3]
+elif 'coatnet' in model_name:
+    IMG_SHAPE = [224, 224, 3]
 
 subdivision_keys = get_subdivision_keys()
 list_keys = subdivision_keys.keys()
