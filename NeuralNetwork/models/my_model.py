@@ -34,6 +34,8 @@ from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.applications.resnet50 import ResNet50
 from tensorflow.keras.applications.inception_v3 import InceptionV3
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2
+from tensorflow.keras.applications.efficientnet import EfficientNetB7
+from keras_cv_attention_models import coatnet
 from tensorflow.keras.regularizers import l2
 from alexnet import AlexNet
 
@@ -44,7 +46,8 @@ class ModelTree(object):
     base_net_list = ['vgg16', 'mobilenetv2', \
                     'vgg16_multiple', 'resnet50_multiple',\
                     'inception_multiple', 'vgg16_multiple_skip',\
-                    'alexnet_multiple']
+                    'alexnet_multiple', 'efficientnet_multiple',\
+                    'coatnet_multiple']
     summary_dict = {}
     output_layers_names = []
 
@@ -70,6 +73,11 @@ class ModelTree(object):
                 self.vgg16_multiple_outputs_connections_config()
             elif base_net_l == self.base_net_list[6]:
                 self.alexnet_multiple_outputs_connections_config()
+            elif base_net_l == self.base_net_list[7]:
+                self.efficientnet_multiple_outputs_connections_config()
+            elif base_net_l == self.base_net_list[8]:
+                self.coatnet_multiple_outputs_connections_config()
+
 
 
     def mobilenetv2_config(self):
@@ -265,6 +273,72 @@ class ModelTree(object):
             print("self.PARAM_SHAPE is not a dictionary")
 
     def custom_alexnet_conn_block(self, x, param_shape, block_name, dropout_dict):
+             
+        if len(param_shape) == 1:
+            if 'sigmoid' in block_name:
+                x = layers.Dense(int(param_shape[0]), activation='sigmoid', name="sigmoid_" + block_name)(x)
+        elif len(param_shape) == 2:
+            x = layers.Dense(int(param_shape[0]*param_shape[1]), activation='linear', name="linear_"+block_name)(x)
+            x = layers.Reshape((param_shape[0], param_shape[1]), name= "reshape_" + block_name)(x)
+        x = layers.Lambda(lambda x: tf.identity(x, name=block_name), name=block_name)(x)
+        self.output_layers_names.append(x.name)
+        return x
+    
+    def efficientnet_multiple_outputs_connections_config(self):
+        dropout_dict = {}
+        outputs = []
+        self.pretrained_net = EfficientNetB7(weights='imagenet',
+                                    drop_connect_rate=0.5,
+                                    include_top=False,
+                                    input_shape=(self.INPUT_SHAPE[0], self.INPUT_SHAPE[1], 3))
+        inputs = self.pretrained_net.inputs
+        x = self.pretrained_net.output
+        x = layers.Flatten(name="flatten_custom")(x)
+        # weight_path = 'D:\\Gilda Manfredi\\bvlc_alexnet.npy'
+        # inputs, x = alexnet(self.INPUT_SHAPE[0], self.INPUT_SHAPE[1], weight_path)
+        if isinstance(self.PARAM_SHAPE,dict):
+            for k, v in self.PARAM_SHAPE.items():
+                outputs.append(self.custom_efficientnet_conn_block(x, v,k, dropout_dict))
+            self.model = tf.keras.Model(inputs=inputs, outputs=outputs)
+            self.model.summary()
+            self.summary_dict['dropout'] = dropout_dict
+        else:
+            print("self.PARAM_SHAPE is not a dictionary")
+
+    def custom_efficientnet_conn_block(self, x, param_shape, block_name, dropout_dict):
+             
+        if len(param_shape) == 1:
+            if 'sigmoid' in block_name:
+                x = layers.Dense(int(param_shape[0]), activation='sigmoid', name="sigmoid_" + block_name)(x)
+        elif len(param_shape) == 2:
+            x = layers.Dense(int(param_shape[0]*param_shape[1]), activation='linear', name="linear_"+block_name)(x)
+            x = layers.Reshape((param_shape[0], param_shape[1]), name= "reshape_" + block_name)(x)
+        x = layers.Lambda(lambda x: tf.identity(x, name=block_name), name=block_name)(x)
+        self.output_layers_names.append(x.name)
+        return x
+
+    def coatnet_multiple_outputs_connections_config(self):
+        dropout_dict = {}
+        outputs = []
+        self.pretrained_net = coatnet.CoAtNet0(pretrained='imagenet',
+                                    num_classes=0,
+                                    drop_connect_rate=0.5,
+                                    input_shape=(self.INPUT_SHAPE[0], self.INPUT_SHAPE[1], 3))
+        inputs = self.pretrained_net.inputs
+        x = self.pretrained_net.output
+        x = layers.Flatten(name="flatten_custom")(x)
+        # weight_path = 'D:\\Gilda Manfredi\\bvlc_alexnet.npy'
+        # inputs, x = alexnet(self.INPUT_SHAPE[0], self.INPUT_SHAPE[1], weight_path)
+        if isinstance(self.PARAM_SHAPE,dict):
+            for k, v in self.PARAM_SHAPE.items():
+                outputs.append(self.custom_coatnet_conn_block(x, v,k, dropout_dict))
+            self.model = tf.keras.Model(inputs=inputs, outputs=outputs)
+            self.model.summary()
+            self.summary_dict['dropout'] = dropout_dict
+        else:
+            print("self.PARAM_SHAPE is not a dictionary")
+
+    def custom_coatnet_conn_block(self, x, param_shape, block_name, dropout_dict):
              
         if len(param_shape) == 1:
             if 'sigmoid' in block_name:
