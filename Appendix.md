@@ -135,7 +135,7 @@ of the starting branch, as shown in
     them to point toward external, starting from the branch center, or
     from the tree center, or randomly;
 
--   **Curve Resolution**: defines the sections number of each branch.
+-   **Curve Resolution**: defines the number of segments of each branch.
     Increasing such value more and more sinuous branches can be obtained
     (see <a href="#04_curveRes">Figure 4</a>).
 
