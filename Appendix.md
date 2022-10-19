@@ -36,7 +36,7 @@ and its level of detail (LOD).
     gathering them on the base or on the top of the trunk according to
     its value;
 
--   **Branch Rings**: places branches around the trunk as a ring shape,
+-   **Branch Rings (Number of Branch Whorls)**: places branches around the trunk as a ring shape,
     providing also the number of rings (Pine Tree);
 
 -   **Random Seed**: is useful to generate same type trees;
@@ -85,13 +85,13 @@ of the starting branch, as shown in
 |:--:| 
 | *Figure 2 - Branches splitting example* |
 
--   **Levels**: represents the number of branch levels, with $levels=2$,
+-   **Number of Levels**: represents the number of branch levels, with $levels=2$,
     a tree with trunk and first level branches will be generated;
 
--   **Base Splits**: and Segment Split (described later) affect the
+-   **Base Splits (Tree Forks)**: and Segment Split (described later) affect the
     trunk splitting;
 
--   **Trunk Height**: indicates the trunk height percentage from which
+-   **Trunk Height (Crown Base Height)**: indicates the trunk height percentage from which
     the branches are placed;
 
 -   **Secondary Base Size**: decreases the base dimension for each
@@ -103,7 +103,7 @@ of the starting branch, as shown in
 -   **Split Bias**: changes the splittings distribution by gathering
     them at the top or bottom of the tree;
 
--   **Branches**: number of branches for each level;
+-   **Number of Branches**: number of branches for each level;
 
 -   **Segment Splits** (segSplits): number of splittings for each branch
     segment. With $segSplits = 0.0$ there is not splitting, with
@@ -111,17 +111,17 @@ of the starting branch, as shown in
     $segSplits = 2.0$ the branch is divided in three parts, and so on up
     $3$ as maximum value;
 
--   **Split Angle** and **Split Variation**: represent the angle
+-   **Split Angle (Sibling Angle)** and **Split Variation (Sibling Angle Variance)**: represent the angle
     amplitude and its variation;
 
--   **Rotate Angle** and **Rotate Variation**: represent the direction
+-   **Rotate Angle (Branch Roll Angle)** and **Rotate Variation (Vranch Roll Angle Variance)**: represent the direction
     grow angle and its variation, as shown in
     <a href="#03_rotate_rotateV">Figure 3</a>;
 
 -   **Branch Rotate**: represents the branch rotation angle for the
     branch rotation matrix, in which is defined also the rotation axis.
 
--   **Rotation Last Angle**: is the last parent rotation which is summed
+-   **Rotation Last Angle (Parent Branch Roll Angle)**: is the last parent rotation which is summed
     with the current branch rotation to obtain the Branch Rotate
     parameter.
     
@@ -156,16 +156,16 @@ This class contains parameters to set the tree branches growth (see
 -   **Length** and **Length Variation**: determine respectively the
     branches length of each level and the variation range;
 
--   **Down Angle** (downAngle) and **Down Angle Variation**: pull back
+-   **Down Angle** (downAngle) and **Down Angle Variation (Parent  Branch Angle Variance)**: pull back
     the branch, increasing the amplitude of the angle between it and the
     branch on which it grows (parent branch);
 
--   **Curvature** and **Curvature Variation**: are useful to pull back
+-   **Curvature (First Half Internodes Branching Angle)** and **Curvature Variation (Internode Branching Angle Variance)**: are useful to pull back
     the branches, curving them inwards;
 
--   **Back Curvature**: curves the tips of the branches;
+-   **Back Curvature (Second Half Internodes Branching Angle)**: curves the tips of the branches;
 
--   **Vertical Attraction**: pull the branch towards the ground;
+-   **Vertical Attraction (Gravity-bending Strength)**: pull the branch towards the ground;
 
 -   **Use Old Down Angle Variation**: if selected, it uses the downAngle
     parameter of the previous branch (parent branch);
@@ -193,10 +193,10 @@ can be enabled or disabled as needed (see
     leaves, increasing the amplitude of the angle between it and the
     branch on which it grows (parent branch);
 
--   **Leaf Rotation** and **Leaf Rotation Variation**: are the leaves
+-   **Leaf Rotation (Leaf Roll Angle)** and **Leaf Rotation Variation (Leaf Angle Variance)**: are the leaves
     direction grow angle and its variation;
 
--   **Leaf Scale** and **Leaf Scale Variation**: determine the leaves
+-   **Leaf Scale (Leaf Scaling Factor)** and **Leaf Scale Variation (Leaf Scaling Factor Variance)**: determine the leaves
     scale and its variation range;
 
 -   **Leaf Scale X**: scales the leaves along the X axis;
