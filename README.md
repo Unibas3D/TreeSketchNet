@@ -8,7 +8,7 @@ This system allows to create 3D tree meshes by predicting the Weber and Penn<sup
 In this repository, we provide: 
 * Render Tree (RT) Blender add-on to generate synthetic hand-made (SHM) sketches defining Weber and Penn parameters
 * Our training and validation datasets which cosist of SHM and parameters obtained through RT addon and realistic sketches obtained through Mean Adaptive Filter (MAF)<sup>[3](#References)</sup>
-* The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet<sup>[4](#References)</sup>, ResNet-50<sup>[5](#References)</sup>, VGG-16<sup>[6](#References)</sup>, Inception V3<sup>[7](#References)</sup>), and EfficientNet-B7
+* The code of our system from which you can choose one of the core model architectures that we tested for our purpose (AlexNet<sup>[4](#References)</sup>, ResNet-50<sup>[5](#References)</sup>, VGG-16<sup>[6](#References)</sup>, Inception V3<sup>[7](#References)</sup>), and EfficientNet-B7<sup>[8](#References)</sup>)
 * Our pretrained Inception V3 final architecture of which our weight are available
 
 ## Specification
@@ -103,3 +103,4 @@ The code is distributed under a BSD license. See `LICENSE` for information.
 6. __Very Deep Convolutional Networks for Large-Scale Image Recognition.__ Karen Simonyan and Andrew Zisserman. *International Conference on Learning Representations.* [link](https://doi.org/10.1109/ACPR.2015.7486599)
 7. __Rethinking the inception architecture for computer vision.__ Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jon and Wojna, Zbigniew. *Proceedings 
    of the IEEE conference on computer vision and pattern recognition.* [link](https://doi.org/10.1109/CVPR.2016.308) 
+ 8. __EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks.__ Mingxing Tan, and Quoc Le. *Proceedings of the 36th International Conference on Machine Learning, PMLR 97:6105-6114, 2019.* [link](https://proceedings.mlr.press/v97/tan19a.html)
