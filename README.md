@@ -78,17 +78,17 @@ The code is distributed under a BSD license. See `LICENSE` for information.
 ## Paper Citation
 ```
 @article{10.1145/3579831,
-author = {Manfredi, Gilda and Capece, Nicola and Erra, Ugo and Gruosso, Monica},
-title = {TreeSketchNet: From Sketch to 3D Tree Parameters Generation},
-year = {2023},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-issn = {2157-6904},
-url = {https://doi.org/10.1145/3579831},
-doi = {10.1145/3579831},
-journal = {ACM Trans. Intell. Syst. Technol.},
-month = {jan},
-keywords = {3D trees, neural networks, deep learning, 3D generation, datasets, procedural modeling}
+ author = {Manfredi, Gilda and Capece, Nicola and Erra, Ugo and Gruosso, Monica},
+ title = {TreeSketchNet: From Sketch to 3D Tree Parameters Generation},
+ year = {2023},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ issn = {2157-6904},
+ url = {https://doi.org/10.1145/3579831},
+ doi = {10.1145/3579831},
+ journal = {ACM Trans. Intell. Syst. Technol.},
+ month = {jan},
+ keywords = {3D trees, neural networks, deep learning, 3D generation, datasets, procedural modeling}
 }
 ```
  
