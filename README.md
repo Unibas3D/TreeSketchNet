@@ -2,7 +2,7 @@
 ![teaser](imgs/teaser_efficientnet_2.png)
 
 ## Overview
-TreeSketchNet is an automated procedural modelling <sup>[1](#References)</sup> system based on Deep convolutional Neural Network (DNN) which is described in our preprint [paper](https://dl.acm.org/doi/10.1145/3579831). 
+TreeSketchNet is an automated procedural modelling <sup>[1](#References)</sup> system based on Deep convolutional Neural Network (DNN) which is described in our [paper](https://dl.acm.org/doi/10.1145/3579831). 
 This system allows to create 3D tree meshes by predicting the Weber and Penn<sup>[2](#References)</sup> parameters using simple hand drawn sketches as input of DNN. In particular this system can recognize and create 3D mesh of specific 5 trees such as Maple, Cherry, Pine, Bonsai, and Plam.
 
 In this repository, we provide: 
