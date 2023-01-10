@@ -77,15 +77,18 @@ The code is distributed under a BSD license. See `LICENSE` for information.
 
 ## Paper Citation
 ```
-@misc{https://doi.org/10.48550/arxiv.2207.12297,
-  doi = {10.48550/ARXIV.2207.12297},
-  url = {https://arxiv.org/abs/2207.12297},
-  author = {Manfredi, Gilda and Capece, Nicola and Erra, Ugo and Gruosso, Monica},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Graphics (cs.GR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {TreeSketchNet: From Sketch To 3D Tree Parameters Generation},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@article{10.1145/3579831,
+author = {Manfredi, Gilda and Capece, Nicola and Erra, Ugo and Gruosso, Monica},
+title = {TreeSketchNet: From Sketch to 3D Tree Parameters Generation},
+year = {2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {2157-6904},
+url = {https://doi.org/10.1145/3579831},
+doi = {10.1145/3579831},
+journal = {ACM Trans. Intell. Syst. Technol.},
+month = {jan},
+keywords = {3D trees, neural networks, deep learning, 3D generation, datasets, procedural modeling}
 }
 ```
  
